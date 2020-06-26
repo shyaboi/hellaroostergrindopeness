@@ -118,21 +118,18 @@ $font: "Open Sans", sans-serif;
   background: whitesmoke;
 }
 
-#svgDiv > div{
+#svgDiv > div {
   height: 75%;
   width: 50%;
-
 }
-
 
 .circle {
   height: 45%;
-    border:.2px solid purple;
+  border: 0.2px solid purple;
   border-radius: 500px;
   -webkit-border-radius: 500px;
   -moz-border-radius: 500px;
 }
-
 
 #kidRow {
   background-image: url("/src/assets/banner-2.jpg");
@@ -153,6 +150,48 @@ $font: "Open Sans", sans-serif;
   font-size: calc(1vw + 1px);
 }
 
-#kidButt{
+#kidButt {
   background: orange;
+}
+
+.checked {
+  color: orange;
+}
+
+.carousel {
+  text-emphasis-color: black;
+}
+
+
+#ratingStars {
+  text-align: center;
+  padding-top: 5vw;
+}
+
+
+.carousel-captionh5 {
+  font-size: 2vmin;
+  padding: 2rem;
+  -webkit-text-stroke: .3px white;
+color: purple;
+}
+
+.carousel-captionP {
+  padding-bottom: 1vw;
+  font-size: 1.5vmin;
+}
+
+footer {
+  text-align: center;
+  width: 100%;
+  align-items: center;
+  bottom: 0;
+  position: relative;
+  height: 5vw;
+  background: whitesmoke;
+  ;
+}
+
+footer > img {
+  height: 75%;
 }
