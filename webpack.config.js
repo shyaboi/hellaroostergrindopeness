@@ -18,7 +18,11 @@ module.exports = {
       {
         test: /\.html$/,
         loader: "html-loader"
-      },
+	  },
+	  {
+        test: /\.svg$/,
+        loader: 'svg-inline-loader'
+    },
 			{
 				test: /\.(scss)$/,
 				use: [{
