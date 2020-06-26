@@ -20,13 +20,13 @@ $font: "Open Sans", sans-serif;
 }
 
 #welcome {
-  padding-top: 15vw;
-  padding-bottom: 15vw;
+  padding-top: 20vw;
+  padding-bottom: 20vw;
 }
 
 #welNoFill {
   color: transparent;
-  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: white;
   font-family: $font;
   font-size: 8vmin;
@@ -81,7 +81,8 @@ $font: "Open Sans", sans-serif;
 }
 
 #momem {
-  padding-left: 30vmin;
+  padding-left: 15vmin;
+
   padding-top: 15vw;
   padding-bottom: 20vw;
   font-family: $font;
@@ -130,4 +131,28 @@ $font: "Open Sans", sans-serif;
   border-radius: 500px;
   -webkit-border-radius: 500px;
   -moz-border-radius: 500px;
+}
+
+
+#kidRow {
+  background-image: url("/src/assets/banner-2.jpg");
+  position: relative;
+  text-align: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+#kidRem {
+  padding-left: 55vw;
+  padding-right: 15vw;
+  padding-top: 15vw;
+  padding-bottom: 15vw;
+  font-family: $font;
+  color: black;
+  font-size: calc(1vw + 1px);
+}
+
+#kidButt{
+  background: orange;
 }
