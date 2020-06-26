@@ -1,17 +1,52 @@
 @import "~bootstrap/scss/bootstrap";
 
+$font: "Open Sans", sans-serif;
+
 #heRow {
-  height: 45vh;
+  position: relative;
   text-align: center;
-  background: #000;
+  background-image: url("/src/assets/hero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
 }
 
 #logo {
-  width: 300px;
-  height: 200px;
+  z-index: 11;
+  width: 20%;
+  height: 20%;
   position: absolute;
 }
 
 #welcome {
-  padding-top: 10rem;
+  padding-top: 10vw;
+  padding-bottom: 10vw;
+}
+
+#welNoFill {
+  font-size: -webkit-xxx-large;
+
+  color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+  font-family: $font;
+  font-size: 10vmin;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  
+}
+
+#welRooster {
+  font-size: 8vmin;
+  font-weight: 800;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+}
+
+.btn {
+  font-size: 2vmin;
+}
+
+#heroButt {
+  background-color: purple;
 }
