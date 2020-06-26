@@ -2,25 +2,81 @@
 <html>
   <head>
     <meta charset="utf-8" />
+    <!-- jquery cdn -->
     <script
       src="https://code.jquery.com/jquery-3.5.1.js"
       integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
       crossorigin="anonymous"
     ></script>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,800&display=swap" rel="stylesheet">
+    <!-- google fonts open sans cdm -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,800&display=swap"
+      rel="stylesheet"
+    />
     <title>Rooster Grin Front End Dev Test</title>
   </head>
   <body>
+    <!-- logo -->
     <img id="logo" src="/src/assets/logo-color.svg" alt="Rooster Grin" />
+    <!-- hero bay welcome banner row/col and bootstrap container -->
     <div class="container-fluid">
+      <!-- bootstrap heRow -->
       <div id="heRow" class="row">
-          <div id="welcome" class="col-12">
-            <h1 id="welNoFill">Welcome To</h1>
-            <h2 id="welRooster">Rooster Grin</h2>
-            <button type="button" id="heroButt" class="btn btn-primary">Primary</button>
+        <!-- welcom text -->
+        <div id="welcome" class="col-12">
+          <h1 id="welNoFill">Welcome To</h1>
+          <h2 id="welRooster">Rooster Grin</h2>
+          <!-- welcome dummy button -->
+          <button type="button" id="heroButt" class="btn btn-primary">
+            Primary
+          </button>
         </div>
       </div>
     </div>
+
+
+    <!-- climber lorem ipsum with carrot link split col row bootstrap container -->
+    <div class="container-fluid" id="climbers">
+      <!-- climer row -->
+      <div id='climbRow' class="row">
+        <!-- climb lorem col -->
+        <div id="climbLorem" class="col-6">
+          <!-- climb lorem col paragraph -->
+          <div id="climbLoremP">
+            <h1 style="font-size: 3vmin; color: purple;">LOREM IPSUM</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam
+              quisquam accusamus reiciendis laudantium optio? Mollitia nobis rem
+              aut impedit, debitis soluta vel maiores eius doloremque minima
+              iste! Esse, hic molestias? Lorem ipsum dolor sit amet, consectetur
+              adipisicing elit. Illo dolorum fugit dignissimos culpa iste
+              maiores assumenda? At sit earum recusandae sint ipsam possimus
+              deleniti, repellat, dolorem eveniet fugiat praesentium quam.
+            </p>
+            <!-- dummt link for lorem -->
+            <a href="home" style="font-size: calc(1.5vw + 1px)">>lorem ipsum</a>
+          </div>
+        </div>
+        <!-- 2nd col in row for img of climberr -->
+        <div class="col-6">
+        <img src="/src/assets/img-1.jpg" id="climbLoremPic"></div>
+    </div>
+  </div>
+      </div>
+<!-- 3rd cell with mom and kid with laptop -->
+      <div class="container-fluid">
+        <!-- bootstrap mom row -->
+        <div id="momRow" class="row">
+          <!-- lorem div with button -->
+          <div id="momem" class="col-12">
+            <h2 style="color: purple;">LOREM IPSUM</h2>
+            <!-- welcome dummy button -->
+            <button type="button" id="heroButt" class="btn btn-primary">
+              Primary
+            </button>
+          </div>
+        </div>
+      </div>
   </body>
   <script type="text/javascript" src="app.js"></script>
 
