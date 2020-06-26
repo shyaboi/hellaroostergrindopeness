@@ -55,14 +55,12 @@ $font: "Open Sans", sans-serif;
 }
 
 #climbLorem {
-
-padding-left: 15vw;
-padding-top: 5vw;
-padding-right: 10vw;
+  padding-left: 15vw;
+  padding-top: 5vw;
+  padding-right: 10vw;
 }
 
 #climbLoremP {
-
   text-align: left;
   font-size: calc(1vw + 1px);
   font-family: $font;
@@ -70,12 +68,10 @@ padding-right: 10vw;
 
 #climbLoremPic {
   width: 50vw;
-background: #000;
+  background: #000;
 }
 
-
-
-#momRow{
+#momRow {
   background-image: url("/src/assets/banner-1.jpg");
   position: relative;
   text-align: left;
@@ -84,12 +80,54 @@ background: #000;
   overflow: hidden;
 }
 
-
 #momem {
-  padding-left: 20vmin;
-      padding-top: 15vw;
-    padding-bottom: 20vw;
-    font-family: $font;
-    color: white;
-  
+  padding-left: 30vmin;
+  padding-top: 15vw;
+  padding-bottom: 20vw;
+  font-family: $font;
+  color: white;
+  font-size: calc(1vw + 1px);
+}
+
+#momButt {
+  background: orange;
+}
+
+#svgDiv {
+  background: #000;
+}
+
+#iconLorem {
+  padding-left: 15vw;
+  padding-top: 10vw;
+  padding-right: 10vw;
+}
+
+#iconLoremP {
+  text-align: left;
+  font-size: calc(1vw + 1px);
+  font-family: $font;
+}
+
+#svgDiv {
+  align-items: center;
+  text-align: center;
+  padding-top: 10vmin;
+
+  background: whitesmoke;
+}
+
+#svgDiv > div{
+  height: 75%;
+  width: 50%;
+
+}
+
+
+.circle {
+  height: 45%;
+    border:.2px solid purple;
+  border-radius: 500px;
+  -webkit-border-radius: 500px;
+  -moz-border-radius: 500px;
 }
