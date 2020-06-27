@@ -1,5 +1,6 @@
-import Home from "../index.html";
-import Styles from "./scss/app.scss";
+import "../index.html";
+import "./scss/app.scss";
+import pic from "./assets/banner-1.jpg";
 // autoprefixer
 // import "autoprefixer";
 
@@ -10,6 +11,5 @@ import "popper.js";
 import "jquery";
 
 
-
-
 // render(<Home />)
+// alert('working?')
