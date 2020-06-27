@@ -22,7 +22,7 @@ module.exports = {
       },
       {
         test: /\.(svg|png|jpg)$/,
-        loader: "svg-inline-loader",
+        loader: "file-loader",
       },
       {
         test: /\.(scss)$/,
