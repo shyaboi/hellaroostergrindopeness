@@ -1,16 +1,21 @@
+// importing the index htmlk file
 import "../index.html";
+// importing the scss file
 import "./scss/app.scss";
-let $ = require(jquery)
+
+
+// importing jquery since it was already in the package.json
+// let $ = require(jquery)
+
+
 // autoprefixer
 // import "autoprefixer";
 
-import "bootstrap";
 // importing popper since it was already in the package.json
-import "popper.js";
-// importing jquery since it was already in the package.json
+// import "popper.js";
 
 
-$("#heRow").css("background-image", "url(" + /src/assets/hero.jpg + ")");
+
 
 // render(<Home />)
 // alert('working?')

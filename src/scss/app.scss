@@ -1,6 +1,13 @@
+
 @import "~bootstrap/scss/bootstrap";
 
 $font: "Open Sans", sans-serif;
+
+.btn {
+  font-size: 2vmin;
+}
+
+
 
 #heRow {
   position: relative;
@@ -40,9 +47,6 @@ $font: "Open Sans", sans-serif;
   color: white;
 }
 
-.btn {
-  font-size: 2vmin;
-}
 
 #heroButt {
   background-color: purple;
