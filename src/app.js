@@ -10,7 +10,7 @@ import "popper.js";
 import "jquery";
 
 
-
+$("#heRow").css("background-image", "url(" + /src/assets/hero.jpg + ")");
 
 // render(<Home />)
 // alert('working?')
