@@ -1,5 +1,6 @@
 import "../index.html";
 import "./scss/app.scss";
+let $ = require(jquery)
 // autoprefixer
 // import "autoprefixer";
 

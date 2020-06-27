@@ -1,0 +1,1 @@
+$("#heRow").css("background-image", "url(" + /src/assets/hero.jpg + ")");
