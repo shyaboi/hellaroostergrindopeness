@@ -1,6 +1,5 @@
 import "../index.html";
 import "./scss/app.scss";
-import pic from "./assets/banner-1.jpg";
 // autoprefixer
 // import "autoprefixer";
 
