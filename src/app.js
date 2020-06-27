@@ -17,4 +17,3 @@ import "jquery";
 
 
 
-console.log("working");
