@@ -1,6 +1,5 @@
 const path = require("path");
 const webpack = require("webpack");
-const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
   entry: "./src/app.js",
@@ -13,7 +12,6 @@ module.exports = {
   devServer: {
     inline: true,
   },
-  //Add sass-loader
   module: {
     rules: [
       {
@@ -23,7 +21,11 @@ module.exports = {
       {
         test: /\.(svg|png|jpg)$/,
         loader: "file-loader",
+        options: {
+          outputPath: 'images',
+        },
       },
+      //Add sass-loader
       {
         test: /\.(scss)$/,
         use: [
