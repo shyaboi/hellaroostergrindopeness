@@ -1,3 +1,4 @@
+
 @import "~bootstrap/scss/bootstrap";
 
 $font: "Open Sans", sans-serif;
@@ -11,7 +12,7 @@ $font: "Open Sans", sans-serif;
 #heRow {
   position: relative;
   text-align: center;
-  background-image: url("../assets/hero.jpg");
+  background-image: url("/src/assets/hero.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;

@@ -1,5 +1,5 @@
 // importing the index htmlk file
-import "../index.html";
+import "./index.html";
 // importing the scss file
 import "./scss/app.scss";
 
