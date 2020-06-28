@@ -3,7 +3,7 @@ import "./index.html";
 // importing the scss file
 import "./scss/app.scss";
 
-
+import "bootstrap"
 // importing jquery since it was already in the package.json
 // let $ = require(jquery)
 

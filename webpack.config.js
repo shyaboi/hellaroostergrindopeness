@@ -3,10 +3,9 @@ const webpack = require("webpack");
 
 module.exports = {
   entry: [ "./src/app.js",
-          "./src/scss/app.scss"
   ],
   output: {
-    path: path.resolve(__dirname, "./"),
+    path: path.resolve(__dirname, "./src"),
     filename: "bundle.js",
   },
   watch: true,
@@ -23,7 +22,9 @@ module.exports = {
         test: /\.(svg|png|jpg)$/,
         loader: "file-loader",
         options: {
-          publicPath: './src/assets',
+          name:'[name].[ext]',
+          outputPath:'assets/',
+          publicPath:'assets/'
         },
       },
       //Add sass-loader
