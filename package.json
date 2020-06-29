@@ -4,9 +4,11 @@
   "description": "Test",
   "main": "main.js",
   "scripts": {
-    "start": "webpack-dev-server --hot --open --inline",
+    "start": "node server.js",
+    "heroku-postbuild": "webpack -p",
     "build": "webpack",
     "build:prod": "webpack -p",
+    "dev": "webpack-dev-server --hot --open --inline",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
