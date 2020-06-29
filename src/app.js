@@ -18,4 +18,4 @@ import "bootstrap"
 
 
 // render(<Home />)
-// alert('working?')
+console.log('working?')
