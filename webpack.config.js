@@ -29,30 +29,20 @@ module.exports = {
         },
       },
       //Add sass-loader
-      {
-        test: /\.(scss)$/,
+      {        test: /\.s[ac]ss$/i,
         use: [
+          'style-loader',
+          'css-loader',
           {
-            loader: "style-loader",
-          },
-          {
-            loader: "css-loader",
-          },
-          {
-            loader: "sass-loader",
-          },
-          {
-            loader: "postcss-loader",
+            loader: 'sass-loader',
             options: {
-			  plugins:
-			  
-			  function () {
-                return [require("autoprefixer")];
+              implementation: require('sass'),
+              sassOptions: {
+                fiber: false,
               },
             },
           },
-        ],
-      },
     ],
   },
-};
+]
+}}
