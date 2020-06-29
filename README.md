@@ -7,7 +7,7 @@ In this itteration, I used React via create-react-app to populate the boiler pla
 <be>Finally react-star-ratings was used to simulate a star rating, although the package can do more than showcased.
 
 # Any struggles you faced when developing with technology you chose?
-Not really with the tech i chose. Outside of sizing the divs properly with the content inside create-react-app makes it simple to get going.
+Not really with the tech I chose. Outside of sizing the divs properly with the content inside create-react-app makes it simple to get going.
 <br> I had a lot of trouble getting the provided server properly deployed which is why I made this React version as well as a vanilla HTML page.
 <br> I could get the webpack dev server working well and looking as desired, but when it came time to deploy, I was a little confused on how to deploy properly and heroku kept timing out on my build, and my depoloyment it github was serving the original index.html without the bundles. so I figured I would make the 2 versions to make up for it.
 
